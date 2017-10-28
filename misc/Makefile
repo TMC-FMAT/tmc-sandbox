@@ -10,7 +10,7 @@ WORK=work
 
 dummy_create_work_dir := $(shell test -d $(WORK) || mkdir -p $(WORK))
 
-DNSMASQ_VERSION=2.77
+DNSMASQ_VERSION=2.69
 SQUID_VERSION=3.5.26
 
 DNSMASQ_URL=http://www.thekelleys.org.uk/dnsmasq/archive/dnsmasq-$(DNSMASQ_VERSION).tar.gz
